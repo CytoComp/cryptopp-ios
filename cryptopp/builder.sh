@@ -1,7 +1,7 @@
 #!/bin/bash
 
 XCODE_ROOT=`xcode-select -print-path`
-ARCHS="i386 armv6 armv7 armv7s"
+ARCHS="i386 armv7 armv7s arm64"
 SDK_VERSION="7.1"
 
 STATIC_ARCHIVES=""
